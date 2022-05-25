@@ -1,0 +1,274 @@
+.Header-top {
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 2px solid grey;
+    background-color: rgb(84, 221, 214);
+}
+
+.Header-top-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.coloumn-Header-top {
+    flex-basis: 32%;
+    box-sizing: border-box;
+}
+
+.Header-top-navbar span {
+    font-size: smaller;
+}
+
+Header {
+
+
+    border: 2px solid grey;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+.follow-us-on{
+    position: relative;
+    top: -4px;
+
+}
+.coloumn-Header-top img{
+    height: 78%;
+    width: 24%;
+    position: relative;
+    top: 14%;
+}
+
+.Header-navbar {
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    align-items: stretch;
+
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+}
+
+
+.coloumn-Header a {
+    font-size: 15px;
+    color: black;
+}
+
+
+
+.coloumn-Header a {
+    text-decoration: none;
+    position: relative;
+    top: -23%;
+
+}
+
+.coloumn-Header button {
+    background-color: rgb(84, 221, 214);
+    border: 2px solid white;
+    color: white;
+    height: 30px;
+    width: 90px;
+    position: relative;
+    top: -43%;
+
+
+}
+.coloumn-Header img{
+    height: 115%;
+    width: 64%;
+    position: relative;
+top: -12px;
+}
+
+#logo-coloumn-Header {
+    position: relative;
+    top: -7px;
+}
+
+.container3 h1 {
+    font-size: 50px;
+    color: white;
+
+}
+
+.container3 p {
+    color: white;
+}
+
+.container3 {
+    border: 2px solid grey;
+    height: 441px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 112px;
+    padding-left: 50px;
+    padding-right: 450px;
+
+
+    background-image: url(Image/p1.jpg);
+    background-size: 1478px 607px;
+    background-repeat: no-repeat;
+}
+
+.container3 button {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+
+}
+
+.Learn-More {
+    margin-left: 20px;
+
+}
+
+.our-causes {
+    /* width: 80%;
+margin: auto; */
+    text-align: center;
+    padding-top: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.our-causes h1{
+    font-size: 200%;
+}
+
+.our-causes p {
+    color: #777;
+    font-size: 14px;
+    padding: 10px;
+}
+.our-causes span{
+    color:rgb(84, 221, 214); 
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.causes-col {
+    flex-basis: 31%;
+    background: #785f5f54;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: 0.5;
+}
+
+.causes-col img {
+    height: 194px;
+    width: 290px;
+}
+
+h1 {
+    text-align: center;
+    font-weight:bold;
+    font-size: 146%;
+    margin: 10px 0;
+}
+
+.causes-col:hover {
+    box-shadow: 0 0 20px 0 rgba(0, green, blue, alpha);
+}
+
+.how-can-you-help-us {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+    color: white;
+    padding-top: 18px;
+    margin-top: -17px;
+    height: 350px;
+    margin-left: 1%;
+    margin-right: 1%;
+
+
+
+}
+
+.row-how-can-you-help-us {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coloumn-how-can-you-help-us {
+    flex-basis: 25%;
+    margin-top: -3%;
+
+}
+
+.coloumn-how-can-you-help-us button {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    height: 33px;
+    width: 43%;
+}
+
+.row-how-can-you-help-us {
+    padding-top: 7%;
+}
+
+.footer {
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 2px solid black;
+    flex-wrap: nowrap;
+    color: white;
+    background-color: black;
+    margin-top: 0%;
+    margin-top: 1%;
+    height: 245px;
+
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coloumn-footer {
+    flex-basis: 17%;
+
+}
+
+.coloumn-footer li {
+    list-style: square;
+
+}
+.row2-cause-coloumn{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    top: -40px;
+}
+.coloumn-cause-coloumn button{
+    height: 34px;
+    width: 100px;
+    background-color: white;
+    color:black;
+    font-size: 98%;
+    font-weight:bold;
+    border-radius: 5px;
+}
