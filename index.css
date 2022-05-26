@@ -1,39 +1,28 @@
-.Header-top {
-    margin-left: 1%;
-    margin-right: 1%;
-    border: 2px solid grey;
-    background-color: rgb(84, 221, 214);
-}
+
 
 .Header-top-navbar {
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    background-color: rgb(84, 221, 214);
+    /* width: 100%; */
 
 }
 
 .coloumn-Header-top {
     flex-basis: 32%;
     box-sizing: border-box;
+
 }
 
 .Header-top-navbar span {
     font-size: smaller;
 }
 
-Header {
 
-
-    border: 2px solid grey;
-    margin-left: 20px;
-    margin-right: 20px;
-
-
-}
 .follow-us-on{
     position: relative;
-    top: -4px;
+    top: 1%;
+    left: 23%;
 
 }
 .coloumn-Header-top img{
@@ -95,24 +84,31 @@ top: -12px;
     top: -7px;
 }
 
-.container3 h1 {
-    font-size: 50px;
-    color: white;
+.WE-CAN-HELP-SOMEONE h1 {
+    font-size: 39px;
+    position: relative;
+    top: 41%;
+    left: -23%;
+    
+
+}
+.WE-CAN-HELP-SOMEONE p{
+    position: relative;
+    top: 41%;
+    left: 8%;
+    
 
 }
 
-.container3 p {
-    color: white;
-}
 
-.container3 {
-    border: 2px solid grey;
+
+
+.WE-CAN-HELP-SOMEONE {
+    
     height: 441px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 112px;
-    padding-left: 50px;
-    padding-right: 450px;
+    color: white;
+  
+    
 
 
     background-image: url(Image/p1.jpg);
@@ -120,14 +116,17 @@ top: -12px;
     background-repeat: no-repeat;
 }
 
-.container3 button {
+
+.WE-CAN-HELP-SOMEONE button {
     color: white;
     background-color: black;
     border: 2px solid white;
     border-radius: 5px;
     height: 40px;
     width: 100px;
-    margin-top: 30px;
+    position: relative;
+    top: 45%;
+    left: 8%;
 
 }
 
@@ -139,13 +138,23 @@ top: -12px;
 .our-causes {
     /* width: 80%;
 margin: auto; */
+height: 557px;
+
     text-align: center;
     padding-top: 2%;
-    margin-left: 1%;
-    margin-right: 1%;
+   
 }
 .our-causes h1{
     font-size: 200%;
+}
+.row-our-causes{
+    display: flex;
+    justify-content:space-around; 
+}
+.coloumn-our-causes{
+    width: 0%;
+    flex-basis: 23%;
+    background-color:#27222238;
 }
 
 .our-causes p {
@@ -158,10 +167,19 @@ margin: auto; */
 }
 
 .row {
-    margin-top: 5%;
+    /* margin-top: 5%; */
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
+    
 }
+.row img{
+    
+
+    height: 194px;
+    width: 290px;
+
+}
+
 
 .causes-col {
     flex-basis: 31%;
@@ -176,6 +194,7 @@ margin: auto; */
 }
 
 .causes-col img {
+    box-sizing: border-box;
     height: 194px;
     width: 290px;
 }
@@ -190,6 +209,29 @@ h1 {
 .causes-col:hover {
     box-shadow: 0 0 20px 0 rgba(0, green, blue, alpha);
 }
+.row-donate{
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+}
+.coloumn-donate{
+    margin: 3%;
+    margin-left: -4%;
+}
+.coloumn-donate button{
+    height: 134%;
+    width: 36%;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.coloumn-donate span{
+    position: relative;
+    left: 50%;
+    color: black;
+    font-weight:bold;
+
+}
 
 .how-can-you-help-us {
     text-align: center;
@@ -200,8 +242,7 @@ h1 {
     padding-top: 18px;
     margin-top: -17px;
     height: 350px;
-    margin-left: 1%;
-    margin-right: 1%;
+    
 
 
 
@@ -232,8 +273,7 @@ h1 {
 
 .footer {
     text-align: center;
-    margin-left: 1%;
-    margin-right: 1%;
+   
     border: 2px solid black;
     flex-wrap: nowrap;
     color: white;
